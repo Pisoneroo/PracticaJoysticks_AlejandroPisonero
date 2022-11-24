@@ -1,0 +1,175 @@
+body{
+    padding-top: 3cm;
+    background-color:antiquewhite;
+    margin: 0;
+}
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 8em;
+    background-color: rgb(9, 20, 84);
+}
+header h1{
+    font-size: 50px;
+    margin-top: 50px;
+    color: darkorange;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 50px;
+}
+nav ul{    
+    margin-top: 50px;
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    padding:10px;
+    float: left;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    border: solid;
+    border-color: #ffffff;
+    border-radius: 50px;
+    background-color:darkorange;
+    color: white;
+    padding: 0.3em;
+}
+header ul li a:hover{
+    color: black;
+    background-color: greenyellow;
+    padding: 0.2em;
+}
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: darkorange;
+    margin-top:1.5em;
+    text-align: center;    
+}
+p.introduccion{
+    margin-top: 35px;
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    text-align: justify;
+}
+footer div{
+    
+    position: relative;
+    height: 9em;
+    background-color: rgb(9, 20, 84);
+}
+footer div p{
+    color: darkorange;
+}
+div.correo{
+    text-align: center;
+    width: 10cm;
+    color: darkorange;
+    position: absolute;
+    right: 0;
+    margin-right: 1.5cm;
+}
+div.acerca{    
+    position: absolute;
+    height: 1cm;
+    margin-left: 1.5cm;
+
+}
+div li a p:hover{
+    color: rgb(244, 244, 244);
+}
+div li a:hover{
+    color: darkorange;
+}
+img.foto{
+    margin-top: 20px;
+    margin-bottom: -13px;
+    width: 50px;
+    margin-left: 10px;
+}
+div.insta{
+    background-color: blueviolet;
+    color: darkorange;
+    float: left;
+    height: 50%;
+    margin-top: 1.3cm;
+    margin-left: 1.5cm;
+    width: fit-content;
+    padding-bottom: 0.2cm;
+
+    padding-left: 1cm;
+    padding-right: 1cm;
+    border: solid 2px rgb(255, 255, 255);
+
+    
+}
+div.tw{
+    background-color: deepskyblue;
+    color: darkorange;
+    float: left;
+    height: 50%;
+    margin-top: 1.3cm;
+    margin-left: 1.5cm;
+    
+    padding-bottom: 0.2cm;
+
+    padding-left: 1cm;
+    padding-right: 1cm;
+    border: solid 2px rgb(255, 255, 255);
+
+}
+div.fb{
+    background-color: navy;
+    color: darkorange;
+    float: left;
+    height: 50%;
+    margin-top: 1.3cm;
+    margin-left: 1.5cm;
+    
+    padding-bottom: 0.2cm;
+
+    padding-left: 1cm;
+    padding-right: 1cm;
+    border: solid 2px rgb(255, 255, 255);
+
+}
+div.redes:hover{
+    color:rgb(255, 255, 255);
+}
+input.subscribirse{
+    margin-left: auto;
+    width: 3cm;
+    height: 25px;
+}
+footer div li{
+    list-style-type: none;
+    float: left;
+}
+img.fotoNormal{
+    float: left;
+    width:15%;
+    margin-top: -0.3cm;
+    margin-left: 2cm;
+    margin-right: 0.2cm;
+}
+img.fotoHeli{
+    width: 15%;
+    float: left;
+    margin-top: -0.3cm;
+    margin-left: 1cm;
+    margin-right: 0.2cm;
+}
+img.fotoSilla{
+    float: right;
+    width: 20%;
+    margin-left: 0.2cm;
+    margin-top: 0cm;
+}
+
+
+
+
+
